@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+// Using http://localhost:8080/actuator/refresh, data gets refreshed
 @RefreshScope
 @Controller
 public class RateController {
